@@ -1,0 +1,15 @@
+:root {
+    --back: #1f1f1f;
+    --fore: #d1cfc0;
+    --accent: #f76f53;
+}
+
+body {
+    background-color: var(--back);
+    color: var(--fore);
+}
+
+h1 {
+    font-weight: 800;
+    color: #f76f53;
+}

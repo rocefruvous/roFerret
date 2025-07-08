@@ -1,0 +1,58 @@
+#ferret-friends-button {
+    background:#1f1f1f;
+    padding:9px;
+    border:none;
+    border-radius:6px;
+    color: #d1cfc0;
+    font-weight: 800;
+}
+
+#ferret-friends-menu {
+    background:#1f1f1f;
+    color: #d1cfc0;
+    position: fixed;
+    border:none;
+    border-radius:6px;
+
+    padding: 6px;
+    width: 630px;
+    height: 720px;
+    z-index: 1500;
+    transform: translate(-50%, 0) !important;
+    left: 50%;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: column;
+    align-items: baseline;
+
+    overflow-y: scroll;
+}
+
+.ferret-friend {
+    background-color: rgba(255,255,255,.1);
+    border-radius: 6px;
+    margin: 6px;
+    padding: 6px;
+}
+
+.ferret-friend:hover .ferret-display-name {
+    color: #f76f53;
+}
+
+.ferret-friend:hover .ferret-name{
+    color: #f76f53;
+}
+
+
+.ferret-display-name {
+    color: #d1cfc0;
+    transition: 0.2s;
+    text-align: left;
+}
+
+.ferret-name {
+    color: #d1cfc0;
+    transition: 0.2s;
+    text-align: left;
+}

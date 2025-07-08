@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "roFerret",
+    "version": "1.0",
+  
+    "description": "Adds some cool shit to roblox website",
+  
+    "icons": {
+      "32": "icons/ferret-32.png",
+      "64": "icons/ferret-64.png",
+      "512": "icons/ferret-512.png"
+    },
+    "host_permissions": [
+      "*://*.roblox.com/*"
+    ],
+
+    "permissions": [
+      "*://*.roblox.com/*"
+    ],
+
+    "web_accessible_resources": [
+      "assets/icons/",
+      "assets/"
+    ],
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.roblox.com/*"],
+        "css": ["theme.css"],
+        "js": ["main.js"]
+      }
+    ],
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

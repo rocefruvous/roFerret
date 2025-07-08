@@ -1,0 +1,91 @@
+#sidebar-main {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    
+    user-select: none;
+    color: #d1cfc0;
+    background: #1f1f1f;
+    padding: 8px;
+    height: 100%;
+}
+
+#sidebar-main-elements {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar-main-elements a {
+    font-size: 18px;
+    transition: 0.5s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#sidebar-main-elements a:hover {
+    color: #f76f53;
+}
+
+#sidebar-robux {
+    position: absolute;
+    bottom: 0;
+}
+
+#sidebar-main-elements svg {
+    fill: #d1cfc0;
+    height: 100%;
+    min-width: 1.5rem;
+    transition: 0.5s;
+}
+#sidebar-main-elements li {
+    margin-top: 12px;
+    align-items: center;
+    height: 18px;
+    display: inline-flex;
+    gap: 6px;
+}
+
+#sidebar-main-elements li:hover svg {
+    fill: #f76f53;
+}
+
+.navbar-left {
+    background-color: #000000ad !important;
+    position: fixed;
+    backdrop-filter: blur(16px);
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    margin-top: 32px !important;
+    border-radius: 8px 8px 0 0 !important;
+    height: 57px;
+    z-index: 500;
+}
+
+.navbar-left .dropdown-menu {
+    width: 100%;
+    background: #000000ad !important;
+    backdrop-filter: blur(16px);
+    margin-top: 0;
+    border-radius: 0 0 8px 8px !important;
+}
+
+.navbar-left .input-group {
+    height: 57px;
+}
+
+.navbar-left .input-group #navbar-search-input {
+    background: transparent;
+    border-radius: 8px 8px 0 0 !important;
+    border: none !important;
+    height: 57px;
+}
+
+.navbar-left .input-group .clear-search {
+    top: 19px;
+}
+
+.navbar-left .input-group .input-addon-btn {
+    display: none !important;
+}

@@ -10,6 +10,7 @@ icons were stolen from:
 
 
 ## features
+- check friends - useful for british profiles because roblox hides their friends
 - custom sidebar with fancy icons and robux count wow so crazy and original i know i know thanks
 - home greeting (i fucked up the time and too lazy to fix it)
 - rep counter it kinda works and at time doesn't also there's no number decorations sorru
